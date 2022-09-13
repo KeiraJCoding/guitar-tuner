@@ -7,27 +7,49 @@
 body {
   display:flex;
   flex-direction: column;
-  align-content: center;
-  padding-top:107px;
+  align-items: center;
+  /* padding-top:107px; */
 }
 .image { 
   background-image: url('Yamaha-FG800-2.jpg'); 
   background-repeat: no-repeat; 
   background-attachment: fixed;
-  background-position: center 60px;
+  background-position: center 107px;
   background-size: contain;
   background-origin: inherit;
 }
 
 .title {
-  margin-top:-110px;
+  /* margin-top:-110px; */
   text-align: center;
-  font-size: 25px;
+  font-size: 2vw;
   color: #000000;
   font-family: 'Tourney', cursive;
   text-shadow: 1px 0 #9500db;
+  height: 107px;
 }
 
+.box {
+  margin-top: 138px;
+  border: 0px rgb(255, 255, 255) solid;
+  width: 427px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.string {
+  font-size:20px;
+  
+}
+
+/* 
 .position1 {
   display:flex;
   flex-direction:column;
@@ -46,8 +68,8 @@ body {
 
 #E {
   position:fixed;
-  margin-top:80px;
-  margin-left:490px;
+  margin-top:8vh;
+  margin-left:49vw;
   padding:11px;  
 }
 
@@ -81,14 +103,15 @@ body {
   padding:10px; 
 }
 
-#e2 {
+ #e2 {
   position:fixed;
-  margin-top:350px;
-  margin-left:890px;
+  margin-top:45%;
+  margin-left:61%;
   padding:10px;
 }
 
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
-}
+} */
+
